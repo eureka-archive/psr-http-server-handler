@@ -15,6 +15,9 @@
     "psr-4": {
       "Eureka\\Psr\\Http\\Server\\": "./src"
     }
-  }
+  },
 
+  "require": {
+    "psr/http-message": "^1.0"
+  }
 }
