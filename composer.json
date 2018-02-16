@@ -1,0 +1,20 @@
+{
+  "name": "eureka/psr-http-server-handler",
+  "description": "Provides the RequestHandlerInterface of PSR-15.",
+  "type": "library",
+  "license": "MIT",
+
+  "authors": [
+    {
+      "name": "Romain Cottard",
+      "role": "Developer"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "Eureka\\Psr\\Http\\Server\\": "./src"
+    }
+  }
+
+}
