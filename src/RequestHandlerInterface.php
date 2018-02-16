@@ -20,8 +20,8 @@ interface RequestHandlerInterface
     /**
      * Handle the request and return a response.
      *
-     * @param  ServerRequestInterface $request
-     * @return \Eureka\Component\Response\ResponseInterface
+     * @param  \Psr\Http\Message\ServerRequestInterface $request
+     * @return \Psr\Http\Message\ResponseInterface
      */
     public function handle(ServerRequestInterface $request);
 }
